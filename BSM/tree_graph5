@@ -1,9 +1,9 @@
 digraph Tree {
 node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
 edge [fontname=helvetica] ;
-0 [label=<X<SUB>3</SUB> &le; 0.5<br/>entropy = 0.84<br/>samples = 816<br/>value = [919, 338]>, fillcolor="#e58139a1"] ;
-1 [label=<entropy = 0.0<br/>samples = 595<br/>value = [919, 0]>, fillcolor="#e58139ff"] ;
+0 [label=<X<SUB>3</SUB> &le; 0.5<br/>entropy = 0.835<br/>samples = 821<br/>value = [923, 334]>, fillcolor="#e58139a3"] ;
+1 [label=<entropy = 0.0<br/>samples = 605<br/>value = [923, 0]>, fillcolor="#e58139ff"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label=<entropy = 0.0<br/>samples = 221<br/>value = [0, 338]>, fillcolor="#399de5ff"] ;
+2 [label=<entropy = 0.0<br/>samples = 216<br/>value = [0, 334]>, fillcolor="#399de5ff"] ;
 0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
 }
