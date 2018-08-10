@@ -62,14 +62,8 @@ print(metrics.accuracy_score(y_testset, neigh8_pred))
 print(metrics.accuracy_score(y_testset, neigh16_pred))
 print(metrics.accuracy_score(y_testset, neigh24_pred))
 
-print(metrics.accuracy_score(y_testset, forest_pred)) # !!!WOW!!! 1.0 means this model was 100% accurate in tests
+print(metrics.accuracy_score(y_testset, forest_pred)) 
 
-""" 
-    It looks like the Random Forest was 100% accurate in test -- we will focus on using this model in visualization 
-
-    Here, we use a for loop to generate graphs of each decision tree in this instance of the bsm_forest RandomForestClassifier
-
-"""
 
 # Visualize Model
 
